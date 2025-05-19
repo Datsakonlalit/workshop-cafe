@@ -37,7 +37,8 @@ const Hero = () => {
                     delay: 0.2,
                   }}
                 >
-                  <h1 className="ml-14 text-3xl md:text-5xl  font-bold leading-tight">
+             
+                  <h1 className="m-0 md:ml-14 text-3xl md:text-5xl font-bold leading-tight">
                     <span className="text-primaryDark">
                       Front-end Developer
                     </span>
@@ -55,7 +56,7 @@ const Hero = () => {
                     delay: 0.2,
                   }}
                 >
-                  <div className="relative z-10 bg-gray-700/25 p-10 left-14 space-y-4">
+                  <div className="relative z-10 bg-gray-700/25 p-10 md:left-14 space-y-4">
                     <motion.h1
                       className="text-2xl text-primaryDark md:text-4xl font-bold"
                       initial={{ opacity: 0, y: -100 }}
@@ -134,7 +135,7 @@ const Hero = () => {
 
               {/* trird div section */}
               <motion.div
-                className="text-lightOrange mt-[100px] md:mt-0 space-y-28 p-4 z-30"
+                className="text-lightOrange p-4 z-30"
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
@@ -144,7 +145,7 @@ const Hero = () => {
                   delay: 0.3,
                 }}
               >
-                <div className="relative bg-darkGray/50 top-25 p-10 right-14 z-10 space-y-4">
+                <div className="relative bg-darkGray/50 top-0 md:top-25 p-10 md:right-14 z-10 space-y-4">
                   <motion.h1
                     className="text-2xl text-primaryDark md:text-4xl font-bold"
                     initial={{ opacity: 0, y: -100 }}
